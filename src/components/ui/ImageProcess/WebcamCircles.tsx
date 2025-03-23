@@ -52,8 +52,8 @@ const WebcamCircles: React.FC = () => {
     ctx.fillStyle = "black"
     ctx.fillRect(0, 0, width, height)
 
-    const circleSize = 8
-    const spacing = 10
+    const circleSize = 10
+    const spacing = 12
 
     for (let y = 0; y < height; y += spacing) {
       for (let x = 0; x < width; x += spacing) {
