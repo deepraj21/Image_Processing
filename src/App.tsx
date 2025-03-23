@@ -6,7 +6,7 @@ import WebcamCircles from "./components/ui/ImageProcess/WebcamCircles"
 const App = () => {
   return (
     <div>
-      <Tabs defaultValue="account" className="w-full">
+      <Tabs defaultValue="Image" className="w-full">
         <TabsList>
           <TabsTrigger value="Image">Image</TabsTrigger>
           <TabsTrigger value="Webcam">Webcam</TabsTrigger>

@@ -57,8 +57,8 @@ const ImageCircles: React.FC = () => {
     ctx.fillStyle = "black"
     ctx.fillRect(0, 0, width, height)
 
-    const circleSize = 9 // Reduced from 10 to 4
-    const spacing = 11 // Reduced from 12 to 5
+    const circleSize = 10 // Reduced from 10 to 4
+    const spacing = 6 // Reduced from 12 to 5
 
     for (let y = 0; y < height; y += spacing) {
       for (let x = 0; x < width; x += spacing) {
